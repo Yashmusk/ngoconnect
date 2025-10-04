@@ -1,0 +1,49 @@
+.carousel-container {
+  width: 60%; /* Adjust width for a balanced layout */
+  margin: 0 auto; /* Horizontally center the carousel */
+  padding: 50px 0; /* Add vertical spacing */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #fff; /* Optional: Background for better contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds subtle shadow */
+}
+
+.carousel-container img {
+  height: 400px; /* Set image height */
+  object-fit: cover; /* Maintain image aspect ratio */
+}
+
+.body-background {
+  background-image: url("https://img.freepik.com/free-vector/watercolor-international-human-solidarity-day-background_23-2149837203.jpg");
+  background-size: cover; /* Cover the entire screen */
+  background-position: center;
+  background-repeat: no-repeat; /* No repeating */
+  background-attachment: fixed; /* Fixed during scroll */
+  margin: 0;
+  padding: 0;
+}
+
+.button-section {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.form-container {
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 600px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.cards-container {
+  padding: 50px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
